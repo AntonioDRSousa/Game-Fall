@@ -3,7 +3,7 @@ from sys import exit
 from random import randint
 from tkinter.messagebox import showinfo
 
-class RapidRoll:
+class Fall:
     def __init__(self):
         self.dim = (600,600)
         self.fps = 60
@@ -327,4 +327,4 @@ class RapidRoll:
 
 
 if __name__=="__main__":
-    RapidRoll()
+    Fall()
